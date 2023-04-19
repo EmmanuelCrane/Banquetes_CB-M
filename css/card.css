@@ -1,0 +1,29 @@
+.card {
+    width: 100%;
+    background-color: #f1eee9;
+    padding: 1rem 1.5rem;
+}
+.cardImage {
+    width: 100%;
+    border-radius: 40px 130px 30px 150px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 90%;
+        padding: 3rem 1.5rem;
+        border-radius: 10px;
+        background-color: #f1eee9;
+        animation: shadowCard 4s infinite;
+    }
+    .cardImage {
+        width: 80%;
+        box-shadow: 0 0 10px rgba(60, 0, 0, 0.9);
+    }
+}
+
+@keyframes shadowCard {
+    to {box-shadow: 16px 14px 20px rgba(60, 0, 0, 0.2);}
+    from {box-shadow: -16px -14px 20px rgba(60, 0, 0, 0.2);}
+}

@@ -1,0 +1,22 @@
+.img {
+  max-width: 100% !important;
+  width: 100% !important;
+  max-height: 100% !important;
+  height: 100% !important;
+}
+.video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+.image {
+  background:
+    /* linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.7) ,rgba(0, 0, 0, 0)
+    ), */ url("https://imgs.search.brave.com/SMrVbGa8RkQGRg7Ll_2lo7TBxxOhITOGtC60gDYpgrc/rs:fit:1200:853:1/g:ce/aHR0cHM6Ly9ib2Rh/c21leGljby5jb20u/bXgvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMDgvaW5ib3Vu/ZDIxMDIzNjcxMzcw/NjA5NTU0MzUuanBn");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

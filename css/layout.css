@@ -1,0 +1,107 @@
+.container {
+    width: 100%;
+}
+.containerFluid {
+    width: 100%;
+}
+.row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    overflow: auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+
+.positionRelative {
+    position: relative;
+}
+
+.positionAbsolute {
+    position: absolute;
+}
+.top-0 {
+    top: 0;
+}
+.bottom-0 {
+    bottom: 0;
+}
+
+.w-30 {
+    width: 30%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-80 {
+    width: 80%;
+}
+.vh-100 {
+    height: 100vh;
+}
+.w-100 {
+    width: 100%;
+}
+
+/* pr0perties flex */
+.justifyContent-center {
+    justify-content: center;
+}
+
+.whiteBody {
+    background-color: var(--white);
+}
+.darkBody {
+    background-color: var(--dark);
+}
+
+.boxShadow {
+    box-shadow: 16px 14px 20px rgba(60,0,0,0.2);
+}
+
+@media only screen and (min-width: 768px) {
+    .row {
+        height: 100vh;
+    }
+    .col {
+        flex: 1 1 50%;
+        margin-bottom: 0;
+    }
+}
+
+
+/*
+Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}
+
+Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...}
+
+Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {...}
+
+Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...}
+*/

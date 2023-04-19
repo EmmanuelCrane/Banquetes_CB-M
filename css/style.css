@@ -1,0 +1,8 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import "reset";
+@import "layout";
+@import "navbar";
+@import "media";
+@import "text";
+@import "buttons";
+@import "card";
